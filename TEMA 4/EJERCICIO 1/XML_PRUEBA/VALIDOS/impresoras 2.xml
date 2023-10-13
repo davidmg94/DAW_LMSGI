@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<impresoras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Medina_Garcia_David_impresoras.xsd">
+
+  <impresora numSerie="l564" tipo="tinta" compra="2015">
+
+    <marca>Epson</marca>
+
+      <modelo>EPL550</modelo>
+
+      <peso>3.590</peso>
+
+      <tamaño>A4</tamaño>
+
+      <tamaño>A5</tamaño>
+
+      <cartucho>C-56FR</cartucho>
+
+      <enred/> 
+
+  </impresora>
+
+
+</impresoras>

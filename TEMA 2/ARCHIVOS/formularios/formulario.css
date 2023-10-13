@@ -1,0 +1,26 @@
+body {background: center fixed no-repeat url("../images/fondo.jpg"); color:white; 
+      background-size: cover;
+}
+h1{text-align: center;font-size: 3em;
+}
+textarea:focus, input:focus, select:focus {
+    border-color: #000;
+    outline: 0 none;
+} 
+.area{text-align: center;
+}
+.extras label{text-align: right;
+}
+label{display: inline-block;
+  width: 250px;
+}
+#botones{text-align: center; 
+}
+#enviar,#borrar{width:300px; height:25px;
+}
+.cultivo{margin: 0 auto;width: 300px;
+}
+fieldset{margin-left: 20%;
+ margin-right: 20%;
+}
+#vid, #olivo, #otros{position: relative; top: 0%; left: 50%; transform: translate(-80%, 0%)}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ITV [
+<!ELEMENT ITV (ficha-tecnica*)>
+<!ELEMENT ficha-tecnica (matricula,fecha-inspeccion,fecha-caducidad,tipo-vehiculo,centro-inspeccion,anomalias)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT fecha-inspeccion (#PCDATA)>
+<!ELEMENT fecha-caducidad (#PCDATA)>
+<!ELEMENT tipo-vehiculo (vehiculo-ligero,vehiculo-pesado,vehiculo-especial,remolque-pesado,motocicleta,ciclomotor)>
+<!ELEMENT vehiculo-ligero (#PCDATA)>
+<!ELEMENT vehiculo-pesado (#PCDATA)>
+<!ELEMENT vehiculo-especial (#PCDATA)>
+<!ELEMENT remolque-pesado (#PCDATA)>
+<!ELEMENT motocicleta (#PCDATA)>
+<!ELEMENT ciclomotor (#PCDATA)>
+<!ELEMENT centro-inspeccion (#PCDATA)>
+<!ELEMENT anomalias (anomalia*)>
+<!ELEMENT anomalia (#PCDATA)>
+    <!ATTLIST anomalia numero (1|2|3|4|5|6|7|8|9|10) #REQUIRED>
+] >
+<ITV>
+    <ficha-tecnica>
+     <matricula>1234-DFG</matricula>
+     <fecha-inspeccion>10/10/2022</fecha-inspeccion>
+     <fecha-caducidad>10/10/2024</fecha-caducidad>
+     <tipo-vehiculo>
+       <vehiculo-ligero>X</vehiculo-ligero>
+       <vehiculo-pesado></vehiculo-pesado>
+       <vehiculo-especial></vehiculo-especial>
+       <remolque-pesado></remolque-pesado>
+       <motocicleta></motocicleta>
+       <ciclomotor></ciclomotor>
+      </tipo-vehiculo>
+      <centro-inspeccion>ITV Ciudad Real </centro-inspeccion>
+      <anomalias></anomalias>
+    </ficha-tecnica>
+    <ficha-tecnica>
+      <matricula>1354-JLK</matricula>
+      <fecha-inspeccion>13/10/2022</fecha-inspeccion>
+     <fecha-caducidad>13/10/2026</fecha-caducidad>
+     <tipo-vehiculo>
+        <vehiculo-ligero></vehiculo-ligero>
+        <vehiculo-pesado></vehiculo-pesado>
+       <vehiculo-especial></vehiculo-especial>
+       <remolque-pesado></remolque-pesado>
+       <motocicleta>X</motocicleta>
+       <ciclomotor></ciclomotor>
+     </tipo-vehiculo>
+      <centro-inspeccion>ITV Ciudad Real </centro-inspeccion>
+      <anomalias>
+        <anomalia numero="1">Intermitente delantero derecho fundido</anomalia>
+      </anomalias>
+    </ficha-tecnica>
+    <ficha-tecnica>
+     <matricula>4567-KHL</matricula>
+      <fecha-inspeccion>15/10/2022</fecha-inspeccion>
+      <fecha-caducidad>15/10/2026</fecha-caducidad>
+     <tipo-vehiculo>
+        <vehiculo-ligero></vehiculo-ligero>
+        <vehiculo-pesado>X</vehiculo-pesado>
+       <vehiculo-especial></vehiculo-especial>
+       <remolque-pesado></remolque-pesado>
+       <motocicleta></motocicleta>
+       <ciclomotor></ciclomotor>
+     </tipo-vehiculo>
+     <centro-inspeccion>ITV Ciudad Real </centro-inspeccion>
+      <anomalias>
+        <anomalia numero="1">altos niveles de contaminacion</anomalia>
+      </anomalias>
+    </ficha-tecnica>
+</ITV>

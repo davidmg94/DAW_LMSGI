@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE torneo SYSTEM "../../Medina_Garcia_David_torneo.dtd">
+
+<torneo edicion="2000" anteriorGanador="j03">
+
+  <participante codigo="j01" compañero="j02">
+
+    <nombre>Carlos Muñoz</nombre>
+
+    <edad>36</edad>
+
+    <pais>Cuba</pais>
+
+    <cabezaDeSerie>SI</cabezaDeSerie>
+
+  </participante>
+
+<!--ERROR FROZADO, NO SE INDICA EL ID DEL COMPAÑERO-->
+
+  <participante codigo="j02" compañero="">
+
+    <nombre>Javier Muñoz</nombre>
+
+    <edad>37</edad>
+
+    <pais>Cuba</pais>
+
+  </participante>
+
+  <participante codigo="j03" compañero="j04">
+
+    <nombre>Maria Herrera</nombre>
+
+    <edad>40</edad>
+
+    <pais>España</pais>
+
+    <cabezaDeSerie/>
+
+  </participante>
+
+  <participante codigo="j04" compañero="j03">
+
+    <nombre>Gema Sanchez</nombre>  
+
+    <edad>41</edad>
+
+    <pais>España</pais>
+
+  </participante>
+
+</torneo>

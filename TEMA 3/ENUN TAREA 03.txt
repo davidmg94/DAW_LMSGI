@@ -1,0 +1,26 @@
+Esta tarea consta de DOS ejercicios.
+
+1.- Archivo de fuentes.
+
+Crea de forma manual un archivo de fuentes de noticias o feed RSS para una página web personal. 
+Enlazar el feed desde el encabezado HTML
+Enlazar el feed desde un icono
+Utiliza un servicio de validación online para validarlo. 
+Documenta con capturas de pantalla y explicaciones.
+2.- Realiza  UNO de los siguientes ejercicios:
+
+A.- Agregadores online.
+
+Crea una cuenta en un agregador de noticias online.
+Subscríbete a varios canales.
+Verifica que los canales se actualizan.
+Explora las diferentes opciones de la aplicación.
+
+Documenta con pantallazos y explicaciones:
+El proceso de registro y creación de una cuenta en un agregador de noticias online.
+La subscripción y configuración de canales. 
+La comprobación de que realmente se actualicen. Deberá aparecer al menos una captura de un canal en el que se vean una serie de artículos y una captura posterior en el tiempo en la que se vea cómo han aumentado los artículos de dicho canal.
+Las opciones que te parezcan más interesantes (al menos 4).
+B.- Complementos de navegador.
+
+Realiza el mismo trabajo que en el punto anterior, pero empleando complementos de navegador

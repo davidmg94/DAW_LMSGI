@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<impresoras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Medina_Garcia_David_impresoras.xsd">
+  
+  <impresora numSerie="i245" tipo="3 D" compra="2020">
+
+    <marca>Epson</marca>
+
+      <modelo>EPL300</modelo>
+
+      <peso>5.235</peso>
+
+      <tamaño>A4</tamaño>
+
+      <tamaño>A5</tamaño>
+      
+<!--ERROR FROZADO, LETRAS EN MINUSCULAS-->
+
+      <cartucho>C-65gh</cartucho>
+
+      <enred/>
+
+  </impresora>
+
+  <impresora numSerie="i246" tipo="láser">
+
+    <marca>HP</marca>
+
+    <modelo>LaserJet 3549</modelo>
+
+    <peso>4.2</peso>
+
+    <tamaño>A4</tamaño>
+
+    <cartucho>C-45H</cartucho>
+
+  </impresora>
+
+</impresoras>

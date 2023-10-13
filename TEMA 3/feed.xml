@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<rss version='2.0'>
+    
+    <channel>
+        <title>RSS de la web personal de David</title>
+        <link>http://RSS.html</link>
+        <description>Noticias de actualidad</description>
+        <language>es</language>
+        
+        <item>
+            <title>Noticias del País</title>
+            <link>http://www.elpais.com</link>
+            <description>Noticias de el periódico el País</description>
+            <pubDate>15/12/2022</pubDate>
+        </item>
+        
+        <item>
+            <title>Noticias del Mundo</title>
+            <link>http://www.elmundo.es</link>
+            <description>Noticias de el periódico el Mundo</description>
+            <pubDate>15/12/2022</pubDate>
+        </item>
+        
+        <item>
+            <title>Noticias del Marca</title>
+            <link>http://www.marca.com</link>
+            <description>Noticias de el periódico Marca</description>
+            <pubDate>15/12/2022</pubDate>
+        </item>        
+    </channel>
+</rss>

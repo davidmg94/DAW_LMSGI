@@ -1,0 +1,51 @@
+body {background: center fixed no-repeat url("../images/fondoppal.jpg"); 
+      background-size: cover;
+}
+h1 {text-align: center; color: white; text-shadow: 1px 1px black; font: 7vw arial}
+h2 {text-align: center; color: black; text-shadow: 1px 1px white; font: 4vw arial}
+.contenedor{ text-align: center;
+}
+.imgcentrar{height: 50%; width: 50%; 
+}
+.lista {list-style: url("../images/que_hacemos.png"); 
+         }
+.lista li a {color: white; text-shadow: 1px 1px black; font: 2vw montserrat,sans-serif;
+}
+.centrado{  text-align: left; margin-right: 20%; color: white; text-shadow: 1px 1px black; font: 2vw montserrat,sans-serif; 
+          position: absolute; top: 80%; left: 50%; transform: translate(-60%, -50%);
+}
+.icon { text-align: center; color: white; text-shadow: 1px 1px black; font: 4vw montserrat,sans-serif; 
+          position: absolute; top: -45%; left: 55%;
+}
+.contenedor2{ text-align: center; display: inline-block;
+}
+.imgcentrar2{ height: 50%; width: 50%;
+  }
+.lista2 {list-style: circle;
+}
+.centrado2{ text-align: left; margin-right: 20%; font: 1.5vw montserrat,sans-serif; 
+          position: absolute; top: 145%; left: 55%; transform: translate(-75%, -50%);
+}
+.icono2{color: purple; text-align: right; margin-right: 20%; font-size: 3vw; 
+          position: absolute; top: 165%; left: 65%; transform: translate(-75%, 50%);
+}
+.contenedor3{ text-align: center; display: inline-block;
+}
+.imgcentrar3{ height: 50%; width: 50%;
+  }
+.lista3 {list-style: square;
+}
+.centrado3{text-align: left; margin-right: 20%; font: 1.5vw montserrat,sans-serif; 
+          position: absolute; top: 225%; left: 55%; transform: translate(-75%, -40%); 
+}
+.icono3{color: purple; text-align: right; margin-right: 20%; font-size: 3vw; 
+          position: absolute; top: 250%; left: 65%; transform: translate(-75%, 50%); 
+}
+a:link{color: purple;
+}
+a:visited{color: grey;
+}
+a:hover{color: red;
+}
+a:active{color: blue;
+}

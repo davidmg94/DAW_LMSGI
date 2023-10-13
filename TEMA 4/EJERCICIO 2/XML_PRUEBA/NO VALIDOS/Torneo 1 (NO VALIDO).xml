@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE torneo SYSTEM "../../Medina_Garcia_David_torneo.dtd">
+
+
+<torneo edicion="2012" anteriorGanador="j01">
+
+  <participante codigo="j01" compañero="j02">
+
+    <nombre>David García</nombre>
+
+<!--ERROR FROZADO, NO ESTA EL ELEMENTO OBLIGATORIO (EDAD DEL JUGADOR)-->
+
+    <pais>España</pais>
+
+    <cabezaDeSerie>SI</cabezaDeSerie>
+
+  </participante>
+
+  <participante codigo="j02" compañero="j01">
+
+    <nombre>Jose Romero</nombre>
+
+    <edad>26</edad>
+
+    <pais>España</pais>
+
+  </participante>
+
+  <participante codigo="j03" compañero="j04">
+
+    <nombre>Angela Céspedes</nombre>
+
+    <edad>29</edad>
+
+    <pais>Colombia</pais>
+
+    <cabezaDeSerie>NO</cabezaDeSerie>
+
+  </participante>
+
+  <participante codigo="j04" compañero="j03">
+
+    <nombre>Nuria Lizcano</nombre>  
+
+    <edad>28</edad>
+
+    <pais>España</pais>
+
+  </participante>
+
+</torneo>

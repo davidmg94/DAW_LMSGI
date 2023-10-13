@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reparaciones[
+<!ELEMENT reparaciones (reparacion*)>
+<!ELEMENT reparacion (nombre-reparacion,coste,herramientas-necesarias,piezas-necesarias,procesos)>
+<!ELEMENT nombre-reparacion (#PCDATA)>
+<!ELEMENT coste (mano-de-obra,piezas,tiempo)>
+<!ELEMENT mano-de-obra (#PCDATA)>
+      <!ATTLIST mano-de-obra moneda CDATA #REQUIRED>
+<!ELEMENT piezas (#PCDATA)>
+      <!ATTLIST piezas moneda CDATA #REQUIRED>
+<!ELEMENT tiempo (#PCDATA)>
+      <!ATTLIST tiempo formato CDATA #REQUIRED>
+<!ELEMENT herramientas-necesarias (herramienta*)>
+<!ELEMENT herramienta (nombre-herramienta,cantidad-herramienta)>
+<!ELEMENT nombre-herramienta (#PCDATA)>
+<!ELEMENT cantidad-herramienta (#PCDATA)>
+<!ELEMENT piezas-necesarias (pieza*)>
+<!ELEMENT pieza (nombre-pieza,cantidad-pieza)>
+<!ELEMENT nombre-pieza (#PCDATA)>
+<!ELEMENT cantidad-pieza (#PCDATA)>
+<!ELEMENT procesos (paso*)>
+<!ELEMENT paso (#PCDATA)>
+      <!ATTLIST paso numero (1|2|3|4|5|6|7|8|9|10) #REQUIRED>
+]>
+<reparaciones>
+  <reparacion>
+   <nombre-reparacion>sustitiuir pastillas de freno</nombre-reparacion>
+   <coste>
+      <mano-de-obra moneda="€">150</mano-de-obra>
+      <piezas moneda="€">400</piezas>
+      <tiempo formato="Horas">1</tiempo>
+    </coste>
+    <herramientas-necesarias>
+     <herramienta>
+        <nombre-herramienta>Guantes reutilizables de mecánico</nombre-herramienta>
+        <cantidad-herramienta>2</cantidad-herramienta>
+     </herramienta> 
+      <herramienta>
+        <nombre-herramienta>Llave para tuercas de rueda</nombre-herramienta>
+        <cantidad-herramienta>1</cantidad-herramienta>
+     </herramienta> 
+      <herramienta>
+        <nombre-herramienta>Útil para retraer el pistón</nombre-herramienta>
+         <cantidad-herramienta>1</cantidad-herramienta>
+     </herramienta> 
+      <herramienta>
+        <nombre-herramienta>Llave Inglesa</nombre-herramienta>
+         <cantidad-herramienta>1</cantidad-herramienta>
+     </herramienta> 
+          <herramienta>
+        <nombre-herramienta>Jeringuilla para purgar los frenos</nombre-herramienta>
+         <cantidad-herramienta>1</cantidad-herramienta>
+     </herramienta> 
+      <herramienta>
+        <nombre-herramienta>bancada coche</nombre-herramienta>
+         <cantidad-herramienta>1</cantidad-herramienta>
+     </herramienta> 
+    </herramientas-necesarias>
+    <piezas-necesarias >
+      <pieza>
+        <nombre-pieza>Pastillas de freno</nombre-pieza>
+        <cantidad-pieza>4</cantidad-pieza>
+      </pieza>
+      <pieza>
+        <nombre-pieza>Lata de líquido de freno</nombre-pieza>
+        <cantidad-pieza>1</cantidad-pieza>
+      </pieza>
+    </piezas-necesarias>
+      <procesos>
+       <paso numero="1">Afloja las tuercas de la rueda</paso>
+       <paso numero="2">Encuentra los dos pernos/pasadores deslizantes</paso>
+       <paso numero="3">Sacar el perno interior</paso>
+       <paso numero="4">Sacar las pastillas de freno</paso>
+       <paso numero="5">Cambiar chapa anti chirridos</paso>
+       <paso numero="6">Poner las pastillas nuevas en la pinza</paso>
+       <paso numero="7">Retraer los pistones hacia atrás</paso>
+       <paso numero="8">Introducimos las pastillas con ayuda de pinzas</paso>
+       <paso numero="9">Los pernos a su lugar</paso>
+       <paso numero="10">Probar las nuevas pastillas</paso>
+      </procesos>
+  </reparacion>
+</reparaciones>

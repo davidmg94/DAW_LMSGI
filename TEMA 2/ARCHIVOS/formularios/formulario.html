@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+        <h1>Solicitud de presupuesto on-line</h1>
+        <form name="miFormulario" action="mailto:solicitudpresupuestos@tecnofar.com"  method="post" target="_blank">
+            <fieldset>
+                <legend>Datos principales</legend>
+                <label for="nombre">Nombre: </label>
+                <input id="nombre" type="text" maxlength="45" size="60" placeholder="Obligatorio" required>
+                <br><br><br>          
+
+                <label for="apellidos">Apellidos: </label>
+                <input id="apellidos" type="text" maxlength="45" size="60">
+                <br><br><br>          
+
+                <label for="telefono" >Teléfono: </label>
+                <input id="telefono" type="tel" maxlength="9" size="60">
+                <br><br><br>          
+
+                <label for="correo">E-mail: </label>
+                <input id="correo" type="email" maxlength="45" size="60" placeholder="Obligatorio" required>
+                <br><br><br>          
+
+                <label for="dias_trabajo">Número de días de trabajo </label>
+                <input id="dias_trabajo" type="number" min="1" value="1">
+                <br><br><br>          
+
+                <label for="servicios">Servicios: </label>
+                <select id="servicios">
+                    <option value="Tratamiento preventivo">Tratamiento preventivo</option>
+                    <option value="Tratamiento de ataque">Tratamiento de ataque</option>
+                    <option value="Poda y saneamiento">Poda y saneamiento</option>
+                    <option value="Formación">Formación</option>
+                    <option value="Alquiler maquinaria">Alquiler maquinaria</option>
+                </select>
+                <br><br><br>          
+                <label for="lugar_aplicacion">Lugar de aplicación:  </label>           
+                <select id="lugar_aplicacion" disabled="">
+                    <option value="Ciudad Real (Capital)">Ciudad Real (Capital)</option>
+                    <option value="Ciudad Real (Provincia)">Ciudad Real (Provincia)</option>
+                    <option value="Castilla la Mancha">Castilla la Mancha</option>
+                    <option value="Nacional">Nacional</option>
+                </select>
+                <br><br><br>
+                <fieldset>
+                    <legend>Cultivo</legend>
+                    <br><br>
+                    <label for="olivo">Olivo</label><br><br>
+                        <input id="olivo" name="cultivo" type="radio" value="olivo" checked="">
+                    <br><br><br>          
+                    <label for="vid">Vid</label><br><br>
+                        <input id="vid" name="cultivo" type="radio" value="vid">            
+                    <br><br><br>          
+                    <label for="otros">Otros</label><br><br>
+                        <input id="otros" name="cultivo" type="radio" value="otros">
+                    <br><br><br>
+                </fieldset>
+                <br><br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Extras</legend>
+                <div class="extras">    
+                    <label for="asesoramiento_personalizado">Asesoramiento personalizado</label>
+                    <input id="asesoramiento_personalizado" type="checkbox" value="asesoramiento_personalizado" checked=""><br><br>
+                    <label for="trabajo_expres" >Trabajo express</label>
+                    <input id="trabajo_expres" type="checkbox" value="trabajo_expres"><br><br>
+                    <label for="asesoramiento_maquinaria_alquilada">Asesoramiento uso maquinaria alquilada</label>
+                    <input id="asesoramiento_maquinaria_alquilada" type="checkbox" value="asesoramiento_maquinaria_alquilada"><br><br>
+                    <label for="formacion_campo">Formación en campo</label>
+                    <input id="formacion_campo" type="checkbox" value="formacion_campo"><br>
+                </div>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <br><br>
+                <div class="area">
+                    <textarea name="area" rows="10" cols="60" placeholder="Escribe aquí tus comentarios"></textarea>
+                </div>
+                <br><br>
+                <label for="archivo">Adjuntar archivo: </label>
+                    <input id="archivo" type="file">
+            </fieldset>
+            <br><br>
+            <div id="botones">
+                <input id="enviar" type="submit" value="Enviar">
+                <input id="borrar" type="reset" value="Borrar Datos">
+            </div>
+            <a href="index.html" style="font-size: 1.5em; color:white">Volver a principal</a>
+        </form>
+    </body>
+</html>

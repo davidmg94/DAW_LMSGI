@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE talleres-a-medida[
+<!ELEMENT talleres-a-medida (fecha*)>
+<!ELEMENT fecha (dia,horas-laborables,vehiculos*)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT horas-laborables (#PCDATA)>
+<!ATTLIST horas-laborables formato CDATA #REQUIRED>
+<!ELEMENT vehiculos (vehiculo*)>
+<!ELEMENT vehiculo (matricula,taller,trabajador,hora-inicio,hora-finalizacion,coste)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT taller (nombre-taller,direccion,departamento)>
+<!ELEMENT nombre-taller (#PCDATA)>
+<!ATTLIST nombre-taller cif CDATA #REQUIRED>
+<!ELEMENT direccion (calle,numero,localidad)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT departamento (#PCDATA)>
+<!ELEMENT trabajador (nombre,telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre dni CDATA #REQUIRED>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT hora-inicio (#PCDATA)>
+<!ELEMENT hora-finalizacion (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>
+<!ATTLIST coste moneda CDATA #REQUIRED>
+]>
+<talleres-a-medida>
+    <fecha>
+      <dia>14/10/2022</dia>
+      <horas-laborables formato="horas">8</horas-laborables>
+      <vehiculos>
+        <vehiculo>
+          <matricula>3677GHC</matricula>
+          <taller>
+            <nombre-taller cif="B-13467925">Hermanos García</nombre-taller>
+            <direccion>
+              <calle>Alameda</calle>
+              <numero>5</numero>
+              <localidad>Madrid</localidad>
+            </direccion>
+            <departamento>Mecanica</departamento>
+            </taller>
+            <trabajador>
+            <nombre dni="70591026-K">Juan Carlos García</nombre>
+            <telefono>678764533</telefono>
+           </trabajador>
+           <hora-inicio >9:00 am</hora-inicio>
+           <hora-finalizacion></hora-finalizacion>
+           <coste moneda="€"></coste>
+         </vehiculo>
+         <vehiculo>
+           <matricula>3575GDP</matricula>
+            <taller>
+              <nombre-taller cif="B-13467925">Pinturas Especialistas</nombre-taller>
+               <direccion>
+               <calle>Toledo</calle>
+               <numero>17</numero>
+                <localidad>Alicante</localidad>
+             </direccion>
+              <departamento>Pintura</departamento>
+           </taller>
+           <trabajador>
+             <nombre dni="70591026-K">Antonio Fernández</nombre>
+              <telefono>678764532</telefono>
+           </trabajador>
+           <hora-inicio ></hora-inicio>
+           <hora-finalizacion></hora-finalizacion>
+            <coste moneda="€">seguro</coste>
+        </vehiculo>
+      </vehiculos>
+    </fecha>
+    <fecha>
+        <dia>15/10/2022</dia>
+        <horas-laborables formato="horas">6</horas-laborables>
+      <vehiculos>
+        <vehiculo>
+         <matricula>3477GHT</matricula>
+            <taller>
+            <nombre-taller cif="B-13467925">Chapa Mercedes</nombre-taller>
+            <direccion>
+             <calle>Romero</calle>
+             <numero>66</numero>
+             <localidad>Toledo</localidad>
+            </direccion>
+            <departamento>Chapa</departamento>
+          </taller>
+          <trabajador>
+           <nombre dni="70591026-K">Ana Pérez</nombre>
+           <telefono>676764433</telefono>
+          </trabajador>
+          <hora-inicio >10:00 am</hora-inicio>
+          <hora-finalizacion>12:00</hora-finalizacion>
+          <coste moneda="€">300</coste>
+        </vehiculo>
+        <vehiculo>
+          <matricula>CR2800P</matricula>
+          <taller>
+           <nombre-taller cif="B-13467925">Neumáticos Almansa</nombre-taller>
+           <direccion>
+             <calle>Morena</calle>
+             <numero>27</numero>
+             <localidad>Madrid</localidad>
+           </direccion>
+           <departamento>Neumaticos</departamento>
+          </taller>
+          <trabajador>
+            <nombre dni="70591026-K">Silvia García</nombre>
+           <telefono>638778532</telefono>
+          </trabajador>
+          <hora-inicio >10:00 am</hora-inicio>
+          <hora-finalizacion>13:00 am</hora-finalizacion>
+         <coste moneda="€">700</coste>
+       </vehiculo>
+     </vehiculos>
+    </fecha>
+</talleres-a-medida>

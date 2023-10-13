@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{text-align: left; font: bold 2em verdana; color: blue;}
+            th{text-align: center; background-color: #7FFFD4; font-family: verdana;}
+            table{border: 2px solid grey; border-collapse: collapse;}
+            td,th{text-align: center; border: 2px solid grey; }
+           #existencias{text-align: center;}
+           caption{font-style: italic;}
+           tfoot td{text-align: center; background-color: red; color: yellow; font-family: verdana;}
+           tbody td img{height: 150px; width: 150px;}
+        </style>
+        <title>Catalogo</title>
+    </head>
+    <body>
+        <h1>Alquiler de maquinaria</h1>
+        <a href="../catalogo/catalogo.pdf" download="catalogo" target="_blank">Descargar en formato PDF</a><br>
+        <br><br>   
+        
+        <table>
+            <caption>Precios actualizados en noviembre de 2021</caption>
+            <thead>
+                <tr>
+                    <th>Artículo</th>
+                    <th>Foto</th>
+                    <th>Precio/día</th>
+                </tr>
+            </thead>
+                
+            <tbody>
+                <tr>
+                    <td>Peine recolección aceituna</td>
+                    <td><a href="formulario.html"><img alt="" src="../images/peine.jpg"></a></td>
+                    <td>35€</td>
+                </tr>
+                <tr>
+                    <td>Peine eléctrico</td>
+                    <td id="existencias" colspan="2">NO HAY EXISTENCIAS</td>
+                    
+                </tr>
+                <tr>
+                    <td>Azufradora</td>
+                    <td><a href="formulario.html"><img alt="" src="../images/azufradora.jpg"></a></td>
+                    <td>50€</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td colspan="3">Todos los precios incluyen IVA</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <a href="index.html">Volver a principal</a>
+
+    </body>
+</html>

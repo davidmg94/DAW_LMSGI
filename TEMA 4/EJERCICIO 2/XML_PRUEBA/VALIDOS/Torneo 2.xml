@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE torneo SYSTEM "../../Medina_Garcia_David_torneo.dtd">
+
+<torneo edicion="1999" anteriorGanador="j02">
+
+  <participante codigo="j01" compañero="j02">
+
+    <nombre>Alberto Contreras</nombre>
+
+    <edad>28</edad>
+
+    <pais>España</pais>
+
+    <cabezaDeSerie/>
+
+  </participante>
+
+  <participante codigo="j02" compañero="j01">
+
+    <nombre>Mario Lizcano</nombre>  
+
+    <edad>30</edad>
+
+    <pais>España</pais>
+
+  </participante>
+
+  <participante codigo="j03" compañero="j04">
+
+    <nombre>Carlos Galán</nombre>
+
+    <edad>26</edad>
+
+    <pais>España</pais>
+
+    <cabezaDeSerie/>
+
+  </participante>
+
+  <participante codigo="j04" compañero="j03">
+
+    <nombre>Angel Campos</nombre>  
+
+    <edad>32</edad>
+
+    <pais>España</pais>
+
+  </participante>
+
+</torneo>
